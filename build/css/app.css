@@ -1,2 +1,2 @@
-body{text-align:center}
+html{font-size:62.5%;box-sizing:border-box}*,:after,:before{box-sizing:inherit}.contenedor{width:95%;max-width:120rem;margin:0 auto}img,picture{width:100%;display:block}a{text-decoration:none;font-size:2rem}h1{font-size:3.8rem}h2{font-size:3.4rem}h3{font-size:3rem}h4{font-size:2.6rem}nav{text-align:center;background-color:#000;display:grid;grid-template-columns:repeat(2,1fr);align-items:center}nav .logo img{width:20%;margin:0 auto}nav .menu{text-align:center}nav .menu a{color:#fff;margin-right:3rem}footer{text-align:center;padding:5rem;background:#000;color:#fff}footer .redes a{color:#fff;font-size:3rem;margin-right:2rem}main{text-align:center}
 /*# sourceMappingURL=app.css.map */

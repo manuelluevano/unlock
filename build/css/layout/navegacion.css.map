@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/navegacion.scss"],"names":[],"mappings":"AAAA,IACI,YAAa,CACb,mCAAoC","file":"navegacion.css","sourcesContent":["nav{\n    display: grid;\n    grid-template-columns: repeat(2,1fr);\n}"]}

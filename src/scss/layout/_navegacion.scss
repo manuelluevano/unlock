@@ -1,0 +1,21 @@
+nav{
+    text-align: center;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+    .logo{
+        img{
+            width: 20%;
+            margin: 0 auto;
+        }
+    }
+    .menu{
+        text-align: center;
+        a{
+            color: #fff;
+            margin-right: 3rem;
+        }
+    }
+}

@@ -1,3 +1,8 @@
-body{
-    text-align: center;
-}
+//BASE
+@import "base/globales";
+@import "base/botones";
+
+//LAYOUT
+@import "layout/navegacion.scss";
+@import "layout/footer";
+@import "layout/main";
