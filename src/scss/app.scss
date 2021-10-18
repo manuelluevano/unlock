@@ -1,8 +1,12 @@
 //BASE
 @import "base/globales";
 @import "base/botones";
+@import "base/normalize";
 
 //LAYOUT
 @import "layout/navegacion.scss";
+@import "layout/silder";
 @import "layout/footer";
 @import "layout/main";
+@import "layout/nosotros";
+@import "layout/form";

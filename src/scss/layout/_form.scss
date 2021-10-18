@@ -1,0 +1,122 @@
+.busqueda{
+    font-size: 3rem;
+    color: #E75F22;
+    font-weight: bold;
+}
+
+form{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.campo{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  align-content: center;
+}
+.campo_toolpit{
+  display: grid;
+  grid-template-columns: 20% 70% 10%;
+  align-items: center;
+  align-content: center;
+}
+.radio{
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.valor{
+  font-size: 1.6rem;
+  input{
+    margin-right: 1rem;
+  }
+}
+
+
+label{
+    color: #E75F22;
+    font-size: 2rem;
+}
+select{
+    
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem .5rem;
+    background: rgb(235, 234, 234);
+    border: none;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+input[type='text']{
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem .5rem;
+    background: rgb(235, 234, 234);
+    border: none;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+input[type='submit']{
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 2rem;
+  background-color: rgb(231, 100, 13);
+  color: #fff;
+  border-radius: .5rem;
+  text-align: right;
+}
+.flex_end{
+  display: flex;
+  justify-content: flex-end;
+}
+textarea{
+  width: 100%;
+  font-size: 1.6rem;
+}
+ /* Tooltip container */
+ .tooltip {
+    position: relative;
+    display: inline-block;
+    // border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

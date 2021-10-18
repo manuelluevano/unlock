@@ -20,11 +20,12 @@
             </div>
             <div class="menu">
                 <a href="index.php">Inicio</a>
-                <a href="metodos.php">Metodos</a>
+                <a href="metodos.php">Subir Metodo</a>
+                <a href="buscador.php">Buscador</a>
                 <a href="nosotros.php">Nosotros</a>
             </div>
         </nav>
-        <div class="parallax">
+        <div class="slider">
             <img src="src/img/portada unlock.jpeg" alt="">
         </div>
     </header>
