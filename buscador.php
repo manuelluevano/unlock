@@ -8,10 +8,10 @@ require 'includes/templates/header.php';
 
     <h3>Buscar metodo de Unlock o Software</h3>
 
-    <div class="buscador contenedor">
-        <form action="">
+    <div class=" contenedor">
+        <form class="buscador" action="">
 
-            <div class="campo">
+            <div class="buscador">
                 <p class="busqueda">Busqueda</p>
                 <input type="text" placeholder="Ingresa modelo o procesador aqui" id="buscador">
             </div>

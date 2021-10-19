@@ -1,21 +1,45 @@
-nav{
+nav {
+  text-align: center;
+  background-color: #000;
+  display: grid;
+  align-items: center;
+  .logo {
+    img {
+      width: 10%;
+      margin: 0 auto;
+    }
+  }
+  .menu {
     text-align: center;
-    background-color: #000;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    
-    .logo{
-        img{
-            width: 20%;
-            margin: 0 auto;
-        }
+    @include grid(1, 1rem);
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      padding: 1rem;
+      transition: all 0.5s ease;
     }
-    .menu{
-        text-align: center;
-        a{
-            color: #fff;
-            margin-right: 3rem;
-        }
+    :hover {
+      background-color: #e75f22;
+      padding: 1rem;
     }
+  }
+}
+
+@include telefono {
+  nav {
+    .menu {
+      display: block;
+      a {
+        margin-right: 3rem;
+      }
+    }
+  }
+}
+
+@include desktop {
+  nav {
+    @include grid(2, 1rem);
+    .logo {
+    }
+  }
 }

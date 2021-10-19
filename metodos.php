@@ -9,7 +9,7 @@ require 'includes/templates/header.php';
 
     <h3>Subir metodo de Unlock o Software</h3>
 
-    <div class=" contenedor">
+    <div class="seccion contenedor">
         <form action="" class="form">
 
             <div class="campo_toolpit">

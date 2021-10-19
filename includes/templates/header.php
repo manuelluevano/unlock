@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/04730c9c8a.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="build/css/app.css">
+
     <title>Software y Unlcok</title>
 </head>
 
@@ -16,7 +16,9 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="src/img/logo sin fondo (1).png" alt="">
+                <a href="/index.php">
+                    <img src="src/img/logo sin fondo (1).png" alt="">
+                </a>
             </div>
             <div class="menu">
                 <a href="index.php">Inicio</a>
