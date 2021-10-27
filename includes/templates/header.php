@@ -11,23 +11,29 @@
     <title>Software y Unlcok</title>
 </head>
 
+
 <body>
 
     <header>
-        <nav>
-            <div class="logo">
-                <a href="/index.php">
-                    <img src="src/img/logo sin fondo (1).png" alt="">
-                </a>
-            </div>
-            <div class="menu">
-                <a href="index.php">Inicio</a>
-                <a href="metodos.php">Subir Metodo</a>
-                <a href="buscador.php">Buscador</a>
-                <a href="nosotros.php">Nosotros</a>
-            </div>
-        </nav>
-        <div class="slider">
-            <img src="src/img/portada unlock.jpeg" alt="">
+        <div class="logo">
+            <img src="build/img/logo sin fondo (1).png" alt="">
         </div>
+
+        <nav>
+            <input type="checkbox" id="menu">
+            <label for="menu">☰</label>
+            <ul>
+                <li><a href="index.php">Inicio</a>
+                <li> <a href="metodos.php">Subir Metodo</a>
+                </li>
+                <li> <a href="buscador.php">Buscador</a>
+                </li>
+                <li> <a href="nosotros.php">Nosotros</a></li>
+                </li>
+            </ul>
+        </nav>
     </header>
+
+    <div class="slider">
+        <img src="build/img/portada unlock.jpeg" alt="">
+    </div>
